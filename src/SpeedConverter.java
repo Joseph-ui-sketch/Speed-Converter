@@ -14,8 +14,8 @@ public class SpeedConverter {
     if (kilometersPerhour < 0) {
         return -1;
     } else {
-        double mph = kilometersPerhour / 1.609;
-            return Math.round(mph);
+        double milesPerHour = kilometersPerhour / 1.609;
+            return Math.round(milesPerHour);
 
         }
     }
